@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import UploadPage from './Component/UploadPage';
 import HomePage from './Component/HomePage';
-import AntiDebug from './Component/AntiDebug';
 
 const App = () => {
   return (
