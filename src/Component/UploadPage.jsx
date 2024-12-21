@@ -10,7 +10,7 @@ const UploadPage = () => {
         URL.revokeObjectURL(file.url);
       }
     };
-  }, [file,toggle]);
+  }, [file]);
 
   const handleFileUpload = (event) => {
     const uploadedFile = event.target.files[0];
